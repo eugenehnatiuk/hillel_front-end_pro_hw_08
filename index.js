@@ -23,8 +23,9 @@ cancel має припиняти виконання програми, а пор�
 //     alert('Деякі елменти не є числами');
 //   }
 // } else {
-//   const result =
-//     inputItems.split(',').reduce((prev, next) => Number(prev) + Number(next), 0);
+//   const result = inputItems
+//     .split(',')
+//     .reduce((prev, next) => Number(prev) + Number(next), 0);
 //   alert(`Сума введених чисел дорівнює ${result}`);
 // }
 
