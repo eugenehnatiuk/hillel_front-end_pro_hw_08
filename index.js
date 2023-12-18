@@ -25,7 +25,7 @@ cancel має припиняти виконання програми, а пор�
 // } else {
 //   const result = inputItems
 //     .split(',')
-//     .reduce((prev, next) => Number(prev) + Number(next), 0);
+//     .reduce((prev, next) => prev + Number(next), 0);
 //   alert(`Сума введених чисел дорівнює ${result}`);
 // }
 
@@ -59,6 +59,6 @@ if (inputItems === null) {
 } else {
   const result = inputItems
     .split(',')
-    .reduce((prev, next) => Number(prev) + Number(next), 0);
+    .reduce((prev, next) => prev + Number(next), 0);
   alert(`Сума введених чисел дорівнює ${result}`);
 }
